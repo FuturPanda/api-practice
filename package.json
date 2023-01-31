@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hosaro/api-practice.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
+  "bugs": {
+    "url": "https://github.com/Hosaro/api-practice/issues"
   },
+  "homepage": "https://github.com/Hosaro/api-practice#readme",
   "dependencies": {
-    "@mem-labs/mem-node": "^0.1.1",
     "express": "^4.18.2",
-    "mongodb": "^4.13.0"
+    "nodemon": "^2.0.20"
   }
 }
